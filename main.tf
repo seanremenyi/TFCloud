@@ -26,7 +26,7 @@ resource "aws_instance" "web" {
   user_data       = file("server-script.sh")
 
   tags = {
-    Name = "Challenge1"
+    Name = "Test1"
   }
 }
 
